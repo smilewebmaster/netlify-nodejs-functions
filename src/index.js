@@ -12,7 +12,8 @@ exports.handler = async function (event) {
         },
         body: JSON.stringify({
             status: 200,
-            message: 'Charge successfully created!'
+            message: 'Charge successfully created!',
+            result: JSON.stringify(event.body)
         })
     }
 }
