@@ -10,11 +10,11 @@ exports.handler = async function (event) {
             'Access-Control-Allow-Origin': '*',
             'Access-Control-Allow-Headers': 'Content-Type'
         },
-        body: JSON.stringify({
+        body: {
             status: 200,
             message: 'Charge successfully created!',
             result: event.body
-        })
+        }
     }
 }
 
