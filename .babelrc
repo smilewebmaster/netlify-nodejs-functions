@@ -1,0 +1,16 @@
+//
+// Babelrc
+//
+
+{
+    "presets": [
+        "@babel/preset-env"
+    ],
+    "plugins": [
+        "@babel/plugin-transform-runtime"
+    ]
+}
+
+//
+// END
+//

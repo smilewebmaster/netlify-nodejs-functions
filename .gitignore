@@ -1,0 +1,9 @@
+src/bundle.js
+.netlify
+node_modules
+dist
+.cache
+.DS_Store
+.env
+lambda
+.DS_Store
